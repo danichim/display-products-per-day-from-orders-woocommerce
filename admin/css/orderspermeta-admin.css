@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+table.paleBlueRows {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #ffffff;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td,
+table.paleBlueRows th {
+  border: 1px solid #ffffff;
+  padding: 3px 2px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+table.paleBlueRows .impar {
+  background: #d0e4f5;
+}
+table.paleBlueRows thead {
+  background: #0b6fa4;
+  border-bottom: 5px solid #ffffff;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-left: 2px solid #ffffff;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #d0e4f5;
+  border-top: 3px solid #444444;
+}
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+.titlu {
+  color: red !important;
+  font-weight: bold !important;
+}
